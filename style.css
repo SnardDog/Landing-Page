@@ -9,7 +9,6 @@ margin: 0;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    border: 2px solid red;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
@@ -18,7 +17,6 @@ margin: 0;
 .header-box {
     background-color: #1F2937;
     color: #F9FAF8;
-    border: 2px solid orange;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,12 +24,11 @@ margin: 0;
 }
 
 .header {
-    border: 2px solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-basis:70%;
-    font-size: 24px;
+    font-size: 18px;
     
 }
 
@@ -51,7 +48,6 @@ margin: 0;
 
 .hero-box {
     background-color: #1F2937;
-    border: 2px solid yellow;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +57,6 @@ margin: 0;
 .hero {
     display: flex;
     flex-basis:70%;
-    border: 2px solid pink;
     padding-top: 100px;
     padding-bottom: 120px;
     justify-content: center;
@@ -70,9 +65,16 @@ margin: 0;
 .hero-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     padding-right: 5%;
+}
+
+.hero-left-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:25px;
 }
 
 .hero-left h1 {
@@ -112,7 +114,6 @@ margin: 0;
 /* INFO */
 
 .info-box {
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,7 +129,6 @@ margin: 0;
 }
 
 .info {
-    border: 2px solid orange;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -179,7 +179,7 @@ margin: 0;
     font-size: 36px;
     font-style: italic;
     gap: 25px;
-    width: 40%;
+    width: 50%;
 }
 
 .quote p {
@@ -197,7 +197,6 @@ margin: 0;
 /* SIGNUP BAR */
 
 .signup-box {
-    border: 2px solid palegreen;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,6 +211,7 @@ margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 0;
     width: 50%;
     padding:40px;
     border-radius: 10px;
@@ -225,13 +225,35 @@ margin: 0;
 }
 
 .signup-bar button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: none;
     border: 2px solid #E5E7EB;
     color: #F9FAF8;
     border-radius: 10px;
     font-weight: 700;
-    font-size: 18px;
-    padding: 5px;
+    font-size: 16px;
+    padding:10px;
     padding-left: 25px;
     padding-right: 25px;
+    white-space: nowrap;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+
+}
+
+.footer h1 {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 400;
 }
