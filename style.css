@@ -56,13 +56,14 @@ margin: 0;
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-bottom: 100px;
 }
 
 .hero {
     display: flex;
     flex-basis:70%;
     border: 2px solid pink;
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 120px;
     justify-content: center;
 }
@@ -118,8 +119,7 @@ margin: 0;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .info-box h1 {
@@ -133,10 +133,10 @@ margin: 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    flex-basis: 80%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    gap: 50px;
+    flex-basis: 70%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 25px;
 }
 
 .customer {
@@ -152,30 +152,40 @@ margin: 0;
     border: 4px solid #3882F6;
     border-radius:18px;
     align-self: flex-start;
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
 }
 
 .customer p {
-    width: 200px;
+    width: 175px;
     font-size:18px;
 }
 
 /* QUOTE */
 
 .quote-box {
+    background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    gap: 25px;
+    width: 70%;
 }
 
 #quote-signature {
     align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
 
 }
