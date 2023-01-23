@@ -145,14 +145,21 @@ margin:0;
     align-items: center;
     text-align: center;
     font-size: 14px;
+    gap: 30px;
 }
 
 .customer img {
+    box-shadow: 0 0 20px #3882F6;
+    transition: 0.5s;
     border: 4px solid #3882F6;
     border-radius:18px;
     align-self: flex-start;
     height: 175px;
     width: 175px;
+}
+
+.custom img:hover {
+    transform:scale(1.5) translate(-50% -50%);
 }
 
 .customer p {
