@@ -179,7 +179,12 @@ margin: 0;
     font-size: 36px;
     font-style: italic;
     gap: 25px;
-    width: 50%;
+    width: 40%;
+}
+
+.quote p {
+    font-style: italic;
+    font-weight:200;
 }
 
 #quote-signature {
@@ -207,7 +212,7 @@ margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 50%;
     padding:40px;
     border-radius: 10px;
     padding-top: 50px;
@@ -225,7 +230,8 @@ margin: 0;
     color: #F9FAF8;
     border-radius: 10px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 18px;
+    padding: 5px;
     padding-left: 25px;
     padding-right: 25px;
 }
